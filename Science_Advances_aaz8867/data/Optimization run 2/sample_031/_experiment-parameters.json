@@ -1,0 +1,193 @@
+{
+  "mapping_offsets": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "flir_offsets": [
+    0,
+    15,
+    30
+  ],
+  "spin_speed": {
+    "min": 100.0,
+    "max": 3800.0,
+    "value": {
+      "0": 1000,
+      "1": 1000,
+      "2": 1000,
+      "3": 1000,
+      "4": 1000,
+      "5": 1000,
+      "6": 1000,
+      "7": 1000,
+      "8": 1000,
+      "9": 1000,
+      "10": 1000,
+      "11": 1000,
+      "12": 1000,
+      "13": 1000,
+      "14": 1000,
+      "15": 1000,
+      "16": 1000,
+      "17": 1000,
+      "18": 1000,
+      "19": 1000,
+      "20": 1000,
+      "21": 1000,
+      "22": 1000,
+      "23": 1000,
+      "24": 1000,
+      "25": 1000,
+      "26": 1000,
+      "27": 1000,
+      "28": 1000,
+      "29": 1000,
+      "30": 1000,
+      "31": 1000
+    },
+    "units": "RPM",
+    "optimize_with_chem_os": false
+  },
+  "spin_time": {
+    "min": 10.0,
+    "max": 120.0,
+    "value": {
+      "0": 60,
+      "1": 60,
+      "2": 60,
+      "3": 60,
+      "4": 60,
+      "5": 60,
+      "6": 60,
+      "7": 60,
+      "8": 60,
+      "9": 60,
+      "10": 60,
+      "11": 60,
+      "12": 60,
+      "13": 60,
+      "14": 60,
+      "15": 60,
+      "16": 60,
+      "17": 60,
+      "18": 60,
+      "19": 60,
+      "20": 60,
+      "21": 60,
+      "22": 60,
+      "23": 60,
+      "24": 60,
+      "25": 60,
+      "26": 60,
+      "27": 60,
+      "28": 60,
+      "29": 60,
+      "30": 60,
+      "31": 60
+    },
+    "units": "s",
+    "optimize_with_chem_os": false
+  },
+  "dispense_volume": {
+    "min": 0.001,
+    "max": 1.0,
+    "value": 0.1,
+    "units": "mL",
+    "optimize_with_chem_os": false
+  },
+  "campaign_dispensed_amounts": {
+    "spiro": {
+      "chemical_name": "Spiro",
+      "varied": false,
+      "value": 0.12040000000000006,
+      "units": "mg",
+      "metadata": {
+        "molar_weight_ mg": 1225.43,
+        "concentration_mg_ml": 50,
+        "requested_param": null,
+        "requested_vol": 0.1500788861327236
+      }
+    },
+    "cobalt": {
+      "chemical_name": "FK102",
+      "varied": true,
+      "value": 0.04320000000000013,
+      "units": "mg",
+      "metadata": {
+        "molar_weight_ mg": 1334.86,
+        "concentration_mg_ml": 50,
+        "requested_param": null,
+        "requested_vol": 0.058254447200609745
+      }
+    },
+    "tbp": {
+      "chemical_name": "tBP",
+      "varied": false,
+      "value": 0.02970000000000006,
+      "units": "mg",
+      "metadata": {
+        "molar_weight_ mg": 135.21,
+        "concentration_mg_ml": 50,
+        "requested_param": null,
+        "requested_vol": 0.04166666666666667
+      }
+    },
+    "annealing": {
+      "varied": true,
+      "value": 58.536940813064575,
+      "units": "s",
+      "metadata": {}
+    }
+  },
+  "properties": {
+    "measurement_0": 6.772328670309685e-07,
+    "measurement_1": 6.538473905432188e-07,
+    "measurement_2": 6.606083905134836e-07,
+    "measurement_3": 6.761039933503087e-07,
+    "measurement_4": 6.664424187701255e-07,
+    "measurement_5": 6.725335035378675e-07,
+    "measurement_6": 6.868724736424802e-07,
+    "measurement_mean": 6.705201481983503e-07
+  },
+  "active_parameters_pickle_file": {
+    "filename": "not yet defined"
+  },
+  "processes": {
+    "x0": 0.31297880566295977,
+    "x1": 0.1189398318529129
+  },
+  "chemOS": {
+    "requested_params": {
+      "x0": 0.35633811354637146,
+      "x1": 0.24390392005443573
+    },
+    "output_for_previous": {
+      "campaign_name": "pseudomobility",
+      "session_id": "dbad41d5-017b-4f35-b430-6be3f655fdb0",
+      "experiment_id": "b669f1c9-88f0-4ee0-9cb5-d4b764499907",
+      "execution_id": "10d7deb5",
+      "robot_id": "e0c4ac82",
+      "processes": {
+        "x0": 0.31297880566295977,
+        "x1": 0.1189398318529129
+      },
+      "properties": {
+        "measurement_0": 6.772328670309685e-07,
+        "measurement_1": 6.538473905432188e-07,
+        "measurement_2": 6.606083905134836e-07,
+        "measurement_3": 6.761039933503087e-07,
+        "measurement_4": 6.664424187701255e-07,
+        "measurement_5": 6.725335035378675e-07,
+        "measurement_6": 6.868724736424802e-07,
+        "measurement_mean": 6.705201481983503e-07
+      }
+    }
+  },
+  "operator_name": "Thomas",
+  "operator_comment": "chemOS optimization of pseudomobility over cobalt annealing space"
+}
