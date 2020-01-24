@@ -1,4 +1,4 @@
-# Self-driving laboratory for accelerated discovery of thin-film materials: Data repository
+# Self-driving laboratory for accelerated discovery of thin-film materials: data repository
 
 B. P. MacLeod<sup>1,3†</sup>, F. G. L. Parlane<sup>1,3†</sup>, T. D. Morrissey<sup>1,3</sup>, F. Häse<sup>4-7</sup>, L. M. Roch<sup>4-7</sup>, K. E. Dettelbach<sup>1</sup>, R. Moreira<sup>1</sup>, L. P. E. Yunker<sup>1</sup>, M. B. Rooney<sup>1</sup>, J. R. Deeth<sup>1</sup>, V. Lai<sup>1</sup>, G. J. Ng<sup>1</sup>, H. Situ<sup>1</sup>, R. H. Zhang<sup>1</sup>, M. S. Elliott<sup>1</sup>, T. H. Haley<sup>1</sup>, D. J. Dvorak<sup>3</sup>, A. Aspuru-Guzik<sup>4-8*</sup>, J. E. Hein<sup>1*</sup>, C. P. Berlinguette<sup>1-3,8*</sup>
 
@@ -12,6 +12,9 @@ B. P. MacLeod<sup>1,3†</sup>, F. G. L. Parlane<sup>1,3†</sup>, T. D. Morriss
 <sup>8</sup>Canadian Institute for Advanced Research (CIFAR), MaRS Centre, Toronto, Ontario, Canada  
 <sup>†</sup>These authors contributed equally to this work
 <br /><br />
+
+## Data organization
+
 The data in this repository are organized in the following folder hierarchy:   
 <p align='center'><i>run > sample > position</i></p>
 
