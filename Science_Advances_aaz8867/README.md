@@ -13,7 +13,7 @@ B. P. MacLeod<sup>1,3†</sup>, F. G. L. Parlane<sup>1,3†</sup>, T. D. Morriss
 <sup>†</sup>These authors contributed equally to this work
 <br /><br />
 The data in this repository are organized in the following folder hierarchy:   
-<p align='center'>*run > sample > position*</p>
+<p align='center'><i>run > sample > position</i></p>
 
 **A run** (also referred to here as a *campaign*) is defined here as a series of robotic thin film synthesis experiments, each experiment producing one *sample*. Each of the two run folders included in this repository contains a folder for each sample. Data that is included at the run level includes:
 * **campaign_parameters.json**: This file provides meta-data about the run such as chemical names, units, and vial locations.
