@@ -1,0 +1,135 @@
+{
+  "mapping_offsets": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "flir_offsets": [
+    0,
+    15,
+    30
+  ],
+  "spin_speed": {
+    "min": 100.0,
+    "max": 3800.0,
+    "value": {
+      "0": 1000,
+      "1": 1000,
+      "2": 1000
+    },
+    "units": "RPM",
+    "optimize_with_chem_os": false
+  },
+  "spin_time": {
+    "min": 10.0,
+    "max": 120.0,
+    "value": {
+      "0": 60,
+      "1": 60,
+      "2": 60
+    },
+    "units": "s",
+    "optimize_with_chem_os": false
+  },
+  "dispense_volume": {
+    "min": 0.001,
+    "max": 1.0,
+    "value": 0.1,
+    "units": "mL",
+    "optimize_with_chem_os": false
+  },
+  "campaign_dispensed_amounts": {
+    "spiro": {
+      "chemical_name": "Spiro",
+      "varied": false,
+      "value": 0.16929999999999978,
+      "units": "mg",
+      "metadata": {
+        "molar_weight_ mg": 1225.43,
+        "concentration_mg_ml": 50,
+        "requested_param": null,
+        "requested_vol": 0.20658001406598356
+      }
+    },
+    "cobalt": {
+      "chemical_name": "FK102",
+      "varied": true,
+      "value": 0.0,
+      "units": "mg",
+      "metadata": {
+        "molar_weight_ mg": 1334.86,
+        "concentration_mg_ml": 50,
+        "requested_param": null,
+        "requested_vol": 0.001753319267349768
+      }
+    },
+    "tbp": {
+      "chemical_name": "tBP",
+      "varied": false,
+      "value": 0.029900000000000038,
+      "units": "mg",
+      "metadata": {
+        "molar_weight_ mg": 135.21,
+        "concentration_mg_ml": 50,
+        "requested_param": null,
+        "requested_vol": 0.04166666666666666
+      }
+    },
+    "annealing": {
+      "varied": true,
+      "value": 237.99253463745117,
+      "units": "s",
+      "metadata": {}
+    }
+  },
+  "properties": {
+    "measurement_0": 1.9029864909911818e-07,
+    "measurement_1": 1.59342791506037e-07,
+    "measurement_2": 1.729044285131579e-07,
+    "measurement_3": 1.5310855038774162e-07,
+    "measurement_4": 1.4435137995984788e-07,
+    "measurement_5": 1.4237420039465802e-07,
+    "measurement_6": 1.3968363367513295e-07,
+    "measurement_mean": 1.574376619336705e-07
+  },
+  "active_parameters_pickle_file": {
+    "filename": "not yet defined"
+  },
+  "processes": {
+    "x0": 0.993746478175889,
+    "x1": 0.8442357778549194
+  },
+  "chemOS": {
+    "requested_params": {
+      "x0": 0.007791579235345125,
+      "x1": 0.9916355609893799
+    },
+    "output_for_previous": {
+      "campaign_name": "pseudomobility",
+      "session_id": "9d97a479-d129-410e-a3ee-9c638411253c",
+      "experiment_id": "ac99ef26-4cc2-4f53-bbc0-140d604c284f",
+      "execution_id": "d0478b57",
+      "robot_id": "7fed69c8",
+      "processes": {
+        "x0": 0.993746478175889,
+        "x1": 0.8442357778549194
+      },
+      "properties": {
+        "measurement_0": 1.9029864909911818e-07,
+        "measurement_1": 1.59342791506037e-07,
+        "measurement_2": 1.729044285131579e-07,
+        "measurement_3": 1.5310855038774162e-07,
+        "measurement_4": 1.4435137995984788e-07,
+        "measurement_5": 1.4237420039465802e-07,
+        "measurement_6": 1.3968363367513295e-07,
+        "measurement_mean": 1.574376619336705e-07
+      }
+    }
+  },
+  "operator_name": "Ray",
+  "operator_comment": "chemos optimization Co anneal mean Ps"
+}
