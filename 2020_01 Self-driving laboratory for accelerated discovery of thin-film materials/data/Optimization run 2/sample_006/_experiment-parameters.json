@@ -1,0 +1,143 @@
+{
+  "mapping_offsets": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "flir_offsets": [
+    0,
+    15,
+    30
+  ],
+  "spin_speed": {
+    "min": 100.0,
+    "max": 3800.0,
+    "value": {
+      "0": 1000,
+      "1": 1000,
+      "2": 1000,
+      "3": 1000,
+      "4": 1000,
+      "5": 1000,
+      "6": 1000
+    },
+    "units": "RPM",
+    "optimize_with_chem_os": false
+  },
+  "spin_time": {
+    "min": 10.0,
+    "max": 120.0,
+    "value": {
+      "0": 60,
+      "1": 60,
+      "2": 60,
+      "3": 60,
+      "4": 60,
+      "5": 60,
+      "6": 60
+    },
+    "units": "s",
+    "optimize_with_chem_os": false
+  },
+  "dispense_volume": {
+    "min": 0.001,
+    "max": 1.0,
+    "value": 0.1,
+    "units": "mL",
+    "optimize_with_chem_os": false
+  },
+  "campaign_dispensed_amounts": {
+    "spiro": {
+      "chemical_name": "Spiro",
+      "varied": false,
+      "value": 0.07909999999999995,
+      "units": "mg",
+      "metadata": {
+        "molar_weight_ mg": 1225.43,
+        "concentration_mg_ml": 50,
+        "requested_param": null,
+        "requested_vol": 0.10064988932580671
+      }
+    },
+    "cobalt": {
+      "chemical_name": "FK102",
+      "varied": true,
+      "value": 0.08379999999999965,
+      "units": "mg",
+      "metadata": {
+        "molar_weight_ mg": 1334.86,
+        "concentration_mg_ml": 50,
+        "requested_param": null,
+        "requested_vol": 0.10768344400752662
+      }
+    },
+    "tbp": {
+      "chemical_name": "tBP",
+      "varied": false,
+      "value": 0.02939999999999987,
+      "units": "mg",
+      "metadata": {
+        "molar_weight_ mg": 135.21,
+        "concentration_mg_ml": 50,
+        "requested_param": null,
+        "requested_vol": 0.04166666666666667
+      }
+    },
+    "annealing": {
+      "varied": true,
+      "value": 206.00641250610352,
+      "units": "s",
+      "metadata": {}
+    }
+  },
+  "properties": {
+    "measurement_0": 2.2617409672775554e-07,
+    "measurement_1": 2.1190890881259728e-07,
+    "measurement_2": 1.8990905325237412e-07,
+    "measurement_3": 0.0,
+    "measurement_4": 3.8952777060981166e-07,
+    "measurement_5": 3.668817166668957e-08,
+    "measurement_6": 2.7288658422885046e-07,
+    "measurement_mean": 1.8958494075686841e-07
+  },
+  "active_parameters_pickle_file": {
+    "filename": "not yet defined"
+  },
+  "processes": {
+    "x0": 0.9272245872461036,
+    "x1": 0.9713221192359924
+  },
+  "chemOS": {
+    "requested_params": {
+      "x0": 0.9821739792823792,
+      "x1": 0.8583600521087646
+    },
+    "output_for_previous": {
+      "campaign_name": "pseudomobility",
+      "session_id": "dbad41d5-017b-4f35-b430-6be3f655fdb0",
+      "experiment_id": "e696a09f-9177-4279-82d7-5f433bc8c4eb",
+      "execution_id": "2b35d6fd",
+      "robot_id": "e0c4ac82",
+      "processes": {
+        "x0": 0.9272245872461036,
+        "x1": 0.9713221192359924
+      },
+      "properties": {
+        "measurement_0": 2.2617409672775554e-07,
+        "measurement_1": 2.1190890881259728e-07,
+        "measurement_2": 1.8990905325237412e-07,
+        "measurement_3": 0.0,
+        "measurement_4": 3.8952777060981166e-07,
+        "measurement_5": 3.668817166668957e-08,
+        "measurement_6": 2.7288658422885046e-07,
+        "measurement_mean": 1.8958494075686841e-07
+      }
+    }
+  },
+  "operator_name": "Thomas",
+  "operator_comment": "chemOS optimization of pseudomobility over cobalt annealing space"
+}
