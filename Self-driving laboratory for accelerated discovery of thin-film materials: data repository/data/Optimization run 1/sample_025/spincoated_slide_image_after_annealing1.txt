@@ -1,1 +1,0 @@
-{"time stamp": "2019-05-25_20-01-58-898243", "Camera Model": "FLIR Blackfly S Mono 12 MP USB3 Vision (Sony IMX226)", "Camera Serial": "18474559", "File Extension": ".jpg", "Resolution": "4000x3000", "Auto Exposure": "Off", "Exposure Mode": "Timed", "Exposure Timer": "3004.0", "ISO": ""}
