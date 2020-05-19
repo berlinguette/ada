@@ -12,7 +12,7 @@ N. Taherimakhsousi<sup>1</sup>, B. P. MacLeod<sup>1,2</sup>, F. G. L. Parlane<su
 The complete experimental conditions in which this data was collected can be found in the methods section of the associated manuscript. The data is divided into two datasets: ​**Darkfield images**​ and ​**Brightfield images**​.
 
 ### 1. Darkfield images
-Within the `Darkfield images`​folder, the data for the `Monotonic trend`​experiment and the `Organic thin films` can be found.
+Within the `Darkfield images`​folder, the data for the `Monotonic trend`​experiment and the `Organic thin films` can be found. Labels for these files can be found in `Darkfield images - labels.csv`.
 
 #### 1.1 Monotonic trend
 This folder is comprised of the unedited images taken from the monotonic dewetting experiment, as described in the manuscript. These images are suffixed with the sequence in which they were collected.
@@ -29,5 +29,8 @@ The data is then divided by the objective power:​`5×` and `20×`. Within thes
 #### 2.2 Organic thin films
 This data contains micrographs collected at a variety of magnifications. Within this folder, the data is categorized by their associated true label: `Cracks`, `Dewetting`, `Particles`, and `Scratches`.
 
-### License and Reuse
+### 3. Labelling app
+The app used by experts to label the images can be found in the `Labelling app` directory.
+
+### 4. License and Reuse
 This data is licensed Creative Commons BY-NC-SA 4.0.
