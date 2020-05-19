@@ -11,7 +11,6 @@ B. P. MacLeod<sup>1,3†</sup>, F. G. L. Parlane<sup>1,3†</sup>, T. D. Morriss
 <sup>7</sup>Vector Institute for Artificial Intelligence, MaRS Centre, Toronto, Ontario, Canada  
 <sup>8</sup>Canadian Institute for Advanced Research (CIFAR), MaRS Centre, Toronto, Ontario, Canada  
 <sup>†</sup>These authors contributed equally to this work
-<br /><br />
 
 ## Data organization
 
