@@ -32,5 +32,8 @@ This data contains micrographs collected at a variety of magnifications. Within 
 ### 3. Labelling app
 The app used by experts to label the images can be found in the `Labelling app` directory.
 
-### 4. License and Reuse
+### 4. DeepThin model
+The `DeepThin model` directory contains the model used to label the images.
+
+### 5. License and Reuse
 This data is licensed Creative Commons BY-NC-SA 4.0.
