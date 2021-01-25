@@ -1,0 +1,341 @@
+{
+   "sample_number": 35,
+   "defaults": {
+      "pre_anneal_delay_time": 0.0,
+      "anneal_start_temperature": 40.0,
+      "anneal_cool_temperature": 60,
+      "anneal_temperature": 200.0,
+      "anneal_ramp_rate": 0.75,
+      "anneal_hold_time": 450,
+      "dispense_volume": 0.1,
+      "spin_speed": 1000,
+      "spin_time": 60,
+      "drop_volume": 0.098,
+      "drop_height": 1.5,
+      "drop_dispense_velocity": 0.3,
+      "post_drop_delay": 0
+   },
+   "robot_parameters": {
+      "Pd_ACN": {
+         "stock_tray_name": "stock_tray",
+         "index": [
+            5,
+            6,
+            7,
+            13,
+            14
+         ],
+         "chemical_name": "Pd(NO3)2_ACN",
+         "concentration": {
+            "value": 12.0,
+            "units": "mg/ml"
+         },
+         "molar_weight": {
+            "value": 1.0,
+            "units": "mg"
+         },
+         "solvent": "ACN",
+         "density": {
+            "value": 0.798,
+            "units": "g/cm^3"
+         }
+      },
+      "gly_H2O": {
+         "stock_tray_name": "stock_tray",
+         "index": [
+            0,
+            1,
+            2
+         ],
+         "chemical_name": "glycine_H2O",
+         "concentration": {
+            "value": 12,
+            "units": "mg/ml"
+         },
+         "molar_weight": {
+            "value": 1.0,
+            "units": "mg"
+         },
+         "solvent": "H2O",
+         "density": {
+            "value": 1.012,
+            "units": "g/cm^3"
+         }
+      },
+      "acac_H2O": {
+         "stock_tray_name": "stock_tray",
+         "index": [
+            8,
+            9,
+            10
+         ],
+         "chemical_name": "acetylacetone_H2O",
+         "concentration": {
+            "value": 12,
+            "units": "mg/ml"
+         },
+         "molar_weight": {
+            "value": 1.0,
+            "units": "mg"
+         },
+         "solvent": "H2O",
+         "density": {
+            "value": 1.012,
+            "units": "g/cm^3"
+         }
+      },
+      "dilutant": {
+         "stock_tray_name": "stock_tray",
+         "index": [
+            3,
+            4,
+            11,
+            12
+         ],
+         "chemical_name": "H2O",
+         "concentration": {
+            "value": 1,
+            "units": "mg/ml"
+         },
+         "molar_weight": {
+            "value": 1.0,
+            "units": "mg"
+         },
+         "solvent": "H2O",
+         "density": {
+            "value": 1.0,
+            "units": "g/cm^3"
+         }
+      }
+   },
+   "layers": [
+      {
+         "pre_anneal_delay_time": 0.0,
+         "anneal_start_temperature": 40.0,
+         "anneal_cool_temperature": 60,
+         "anneal_temperature": 205.7041778564453,
+         "anneal_ramp_rate": 0.75,
+         "anneal_hold_time": 450,
+         "dispense_volume": 0.1,
+         "spin_speed": 1000,
+         "spin_time": 60,
+         "drop_volume": 0.098,
+         "drop_height": 1.5,
+         "drop_dispense_velocity": 0.3,
+         "post_drop_delay": 0,
+         "chemicals": [
+            {
+               "name": "Pd_ACN",
+               "volume": 0.14790501549033905,
+               "density": 0.798,
+               "index": [
+                  5,
+                  6,
+                  7,
+                  13,
+                  14
+               ]
+            },
+            {
+               "name": "gly_H2O",
+               "volume": 0.003330334603868044,
+               "density": 1.012,
+               "index": [
+                  0,
+                  1,
+                  2
+               ]
+            },
+            {
+               "name": "acac_H2O",
+               "volume": 0.018031456821195353,
+               "density": 1.012,
+               "index": [
+                  8,
+                  9,
+                  10
+               ]
+            },
+            {
+               "name": "dilutant",
+               "volume": 0.0307331930845976,
+               "density": 1.0,
+               "index": [
+                  3,
+                  4,
+                  11,
+                  12
+               ]
+            }
+         ]
+      }
+   ],
+   "dispense": [
+      {
+         "Pd_ACN": {
+            "status": true,
+            "total_mass": 0.11649999999999983,
+            "total_volume": 0.14598997493734314,
+            "target_volume": 0.14790501549033905,
+            "volumes": {
+               "target": [
+                  0.14790501549033905,
+                  0.06356917589134166,
+                  0.0019150405529959058,
+                  0.0019150405529959058,
+                  0.0019150405529959058
+               ],
+               "calibrated": [
+                  0.1,
+                  0.07304057584414246,
+                  0.005346954423883611,
+                  0.005346954423883611,
+                  0.005346954423883611
+               ],
+               "dispensed": [
+                  0.08433583959899739,
+                  0.061654135338345746,
+                  0.0,
+                  0.0,
+                  0.0
+               ],
+               "error": [
+                  0.015664160401002616,
+                  0.011386440505796715,
+                  0.005346954423883611,
+                  0.005346954423883611,
+                  0.005346954423883611
+               ],
+               "pump_draws": [
+                  0.1,
+                  0.07304057584414246,
+                  0.005346954423883611,
+                  0.005346954423883611,
+                  0.005346954423883611
+               ]
+            },
+            "stock_trips": [
+               0,
+               1,
+               2,
+               3,
+               4
+            ]
+         },
+         "gly_H2O": {
+            "status": true,
+            "total_mass": 0.0024999999999999467,
+            "total_volume": 0.0024703557312252436,
+            "target_volume": 0.003330334603868044,
+            "volumes": {
+               "target": [
+                  0.003330334603868044
+               ],
+               "calibrated": [
+                  0.008663368064254849
+               ],
+               "dispensed": [
+                  0.0024703557312252436
+               ],
+               "error": [
+                  0.006193012333029605
+               ],
+               "pump_draws": [
+                  0.008663368064254849
+               ]
+            },
+            "stock_trips": [
+               0
+            ]
+         },
+         "acac_H2O": {
+            "status": true,
+            "total_mass": 0.02059999999999995,
+            "total_volume": 0.020355731225296395,
+            "target_volume": 0.018031456821195353,
+            "volumes": {
+               "target": [
+                  0.018031456821195353
+               ],
+               "calibrated": [
+                  0.024183209098948902
+               ],
+               "dispensed": [
+                  0.020355731225296395
+               ],
+               "error": [
+                  0.0038274778736525072
+               ],
+               "pump_draws": [
+                  0.024183209098948902
+               ]
+            },
+            "stock_trips": [
+               0
+            ]
+         },
+         "dilutant": {
+            "status": true,
+            "total_mass": 0.031099999999999905,
+            "total_volume": 0.031099999999999905,
+            "target_volume": 0.0307331930845976,
+            "volumes": {
+               "target": [
+                  0.0307331930845976
+               ],
+               "calibrated": [
+                  0.040038182565942416
+               ],
+               "dispensed": [
+                  0.031099999999999905
+               ],
+               "error": [
+                  0.008938182565942511
+               ],
+               "pump_draws": [
+                  0.040038182565942416
+               ]
+            },
+            "stock_trips": [
+               0
+            ]
+         }
+      }
+   ],
+   "requested": {
+      "fuel_oxidizer_ratio": 0.7355435490608215,
+      "acac_amount": 0.9154309034347534,
+      "concentration": 0.010156008414924145,
+      "anneal_temperature": 205.7041778564453
+   },
+   "realized": {
+      "fuel_oxidizer_ratio": 0.8168513694790988,
+      "acac_amount": 0.9427720045348038,
+      "concentration": 0.01013747112929223,
+      "anneal_temperature": 205.7041778564453
+   },
+   "robot_requested": {
+      "Pd_ACN": 0.14790501549033905,
+      "gly_H2O": 0.003330334603868044,
+      "acac_H2O": 0.018031456821195353,
+      "dilutant": 0.0307331930845976,
+      "anneal_temperature": 205.7041778564453
+   },
+   "robot_realized": {
+      "Pd_ACN": 0.14598997493734314,
+      "gly_H2O": 0.0024703557312252436,
+      "acac_H2O": 0.020355731225296395,
+      "dilutant": 0.031099999999999905,
+      "anneal_temperature": 205.7041778564453
+   },
+   "cost": [
+      {
+         "objective": "condxrfman_avg",
+         "value": 5.627676171076168e-08
+      },
+      {
+         "objective": "anneal_temperature",
+         "value": 205.7041778564453
+      }
+   ]
+}

@@ -1,0 +1,631 @@
+{
+  "results": {
+    "fuel_oxidizer_ratio": [
+      2.496908511941655,
+      0.5384112023418725,
+      1.9850966807977553,
+      0.5761591062424644,
+      1.0926561647298125,
+      0.5846433648043702,
+      1.1801587220733296,
+      1.9234892647898525,
+      1.2107139655557164,
+      1.3309843953342528,
+      0.6044573964899562,
+      0.49696339667069633,
+      0.9838203967905594,
+      0.9733775782100099,
+      1.8437905846908973,
+      1.0712605959801444,
+      0.4558044661224205,
+      1.0683433777584055,
+      1.6661135526980482,
+      1.456046982465761,
+      2.045202870063065,
+      1.0612507499486086,
+      1.4609105510931568,
+      1.2924912097175645,
+      1.1392717958360543,
+      0.28228226148701163,
+      0.5385452623092929,
+      1.1042245405552302,
+      0.8870463764327371,
+      0.40880414015540617,
+      0.5658839751673991,
+      1.451912380356355,
+      0.8813357105676817,
+      1.627293173714781,
+      1.550185594937927,
+      0.6886090721575489,
+      1.6807514252264497,
+      0.11782703800468623,
+      1.3200234706977432,
+      0.11203988631994626,
+      1.2545621478909486,
+      1.7955439510384226,
+      0.9573939191212372,
+      2.1487509233284503,
+      1.804398073606566,
+      1.7972866226143875,
+      0.09520211359960341,
+      1.7903104252833633,
+      0.23347359909608995,
+      1.1189358207848297,
+      0.46238724922381114,
+      1.4788637732385355,
+      0.5779276011164723,
+      0.6217582460075501,
+      0.6306614805155693,
+      0.21933391399714167,
+      1.4052731922524848,
+      2.00068040066468,
+      1.9639876464081034,
+      0.9575647403467341,
+      0.4430225931771062,
+      0.17857848650561714,
+      0.841344960020569,
+      0.35447854957449665,
+      0.9206290542017717,
+      1.0959515364853947,
+      1.3720818565914643,
+      1.3620209791891973,
+      0.28355797309807906,
+      0.9519144379757363,
+      0.7414119882219734,
+      0.7102304229209612
+    ],
+    "acac_amount": [
+      0.5310012255921716,
+      0.677168614383144,
+      1.0,
+      0.0,
+      0.17091583564293397,
+      0.6156894226854689,
+      0.8120988136751406,
+      1.0,
+      0.5618933117517904,
+      0.8552738192710329,
+      0.9196157865864345,
+      0.02657844391707171,
+      0.9842388110054265,
+      0.7784178456919909,
+      0.7688813169439362,
+      0.7484340410971777,
+      0.8359286091965519,
+      0.17893451105813724,
+      0.5107518517748874,
+      0.7809171721421294,
+      0.3426058349694802,
+      0.9354109460914304,
+      0.9724938223982325,
+      0.5190575054092438,
+      0.5565314889396008,
+      0.3702849645412951,
+      0.7093839581678246,
+      0.5878509636283928,
+      0.6132464696843766,
+      0.6547844717972972,
+      0.5976979124776296,
+      0.6652570883974823,
+      0.26295630461634073,
+      0.413586381404879,
+      0.40050552982525317,
+      0.7560300115816592,
+      0.6125256893412833,
+      0.3125751417840876,
+      0.33081203311801394,
+      0.0010899977412876431,
+      0.03495190951213248,
+      0.3176776145614641,
+      0.9995438901675069,
+      0.46857364638857213,
+      0.6117851619878648,
+      0.7596929022647944,
+      0.34281928115691074,
+      0.5172017776152368,
+      0.9712619646990445,
+      0.005337040581486798,
+      0.7403876216878182,
+      0.195775660532477,
+      0.7968157091681113,
+      0.5087842037809964,
+      0.7639789084016607,
+      0.9201791315446137,
+      0.7981866219553709,
+      0.26240599962940253,
+      0.8705028082837837,
+      0.6997242439879657,
+      0.4180293607573921,
+      0.16628587519288412,
+      0.5885400722182533,
+      0.8605138128957428,
+      0.796492363042353,
+      0.9888758977669162,
+      0.27492698339242,
+      0.9898314396220886,
+      0.7482303297547551,
+      0.5891970667508564,
+      0.4778306927679864,
+      0.8640684855133774
+    ],
+    "concentration": [
+      0.005745271889201996,
+      0.011095312242393159,
+      0.011426129771640401,
+      0.0058593433034096485,
+      0.011378997685666283,
+      0.011410308579179363,
+      0.005824728230770808,
+      0.01151132434291255,
+      0.005968896289851967,
+      0.006707145027528293,
+      0.0065418175653140865,
+      0.005884644971724712,
+      0.008034581105753396,
+      0.006038253141543131,
+      0.006132206651597174,
+      0.0063165768425672035,
+      0.006767347800495996,
+      0.009422428187807674,
+      0.010361322644198876,
+      0.009001070840612375,
+      0.007934997130474577,
+      0.010614414332820501,
+      0.0100438315364936,
+      0.007297993165158463,
+      0.009066031787669931,
+      0.010111712739785122,
+      0.008811004877949568,
+      0.00711048065606626,
+      0.010302175099222606,
+      0.00865381073454059,
+      0.007998870749730332,
+      0.0072889968768491825,
+      0.009274368595561001,
+      0.00805839882978703,
+      0.009221783848839208,
+      0.006270337353172496,
+      0.00851548614870474,
+      0.007519885187944301,
+      0.010484636741001137,
+      0.0077327930858798475,
+      0.009725549995270647,
+      0.007094101963926964,
+      0.009925548156317349,
+      0.007999353666899234,
+      0.007963646781263163,
+      0.007699709497735614,
+      0.008343555762163979,
+      0.00841548135803758,
+      0.008876919007319406,
+      0.010671151824916788,
+      0.009005376627166566,
+      0.007317568586407947,
+      0.010314274610143993,
+      0.008555247623953243,
+      0.007070837262677149,
+      0.008531766783573256,
+      0.008820106979647642,
+      0.006510055619890771,
+      0.011518250773242485,
+      0.008988997332777223,
+      0.009929838489481351,
+      0.008211365108447532,
+      0.006325993049837862,
+      0.01134297064785626,
+      0.010375000664325737,
+      0.007122318042748913,
+      0.00887603549327243,
+      0.006778750783655441,
+      0.008858833094403723,
+      0.009621477042046175,
+      0.009334814967106876,
+      0.007093665249996164
+    ],
+    "anneal_temperature": [
+      220.0,
+      260.0,
+      200.0,
+      220.0,
+      260.0,
+      200.0,
+      220.0,
+      260.0,
+      207.74632263183594,
+      203.63978576660156,
+      198.91786193847656,
+      196.2642059326172,
+      203.85365295410156,
+      224.39215087890625,
+      223.81964111328125,
+      212.4146728515625,
+      200.58636474609375,
+      188.35562133789062,
+      181.1585235595703,
+      180.24844360351562,
+      264.33807373046875,
+      184.25584411621094,
+      229.1809539794922,
+      260.7192687988281,
+      249.66586303710938,
+      276.82989501953125,
+      223.42251586914062,
+      202.95257568359375,
+      200.28269958496094,
+      196.36221313476562,
+      180.230712890625,
+      239.50978088378906,
+      184.1900177001953,
+      253.50442504882812,
+      193.23020935058594,
+      257.7873229980469,
+      194.8937225341797,
+      209.07122802734375,
+      198.5233612060547,
+      194.1928253173828,
+      277.3482360839844,
+      272.1824951171875,
+      251.5506591796875,
+      189.07164001464844,
+      247.5609130859375,
+      247.83984375,
+      217.52264404296875,
+      200.59918212890625,
+      206.45947265625,
+      194.48753356933594,
+      264.82647705078125,
+      247.28472900390625,
+      226.439208984375,
+      213.7967071533203,
+      257.6376647949219,
+      205.5087432861328,
+      203.1072540283203,
+      252.5382843017578,
+      247.1460723876953,
+      247.55430603027344,
+      200.88925170898438,
+      241.57058715820312,
+      180.4064483642578,
+      256.3056640625,
+      260.9374694824219,
+      270.8951416015625,
+      275.42364501953125,
+      196.66957092285156,
+      241.33154296875,
+      276.356689453125,
+      197.4940643310547,
+      234.61212158203125
+    ],
+    "y": [
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 220.0
+      },
+      {
+        "condxrfman_avg": 4.374571666845747e-08,
+        "anneal_temperature": 260.0
+      },
+      {
+        "condxrfman_avg": 3.4806391654358465e-08,
+        "anneal_temperature": 200.0
+      },
+      {
+        "condxrfman_avg": 4.1497211313732093e-07,
+        "anneal_temperature": 220.0
+      },
+      {
+        "condxrfman_avg": 3.1819804683108955e-07,
+        "anneal_temperature": 260.0
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 200.0
+      },
+      {
+        "condxrfman_avg": 5.102966566757568e-07,
+        "anneal_temperature": 220.0
+      },
+      {
+        "condxrfman_avg": 1.7149732343565983e-07,
+        "anneal_temperature": 260.0
+      },
+      {
+        "condxrfman_avg": 2.1591070783184014e-08,
+        "anneal_temperature": 207.74632263183594
+      },
+      {
+        "condxrfman_avg": 2.4740558458354724e-07,
+        "anneal_temperature": 203.63978576660156
+      },
+      {
+        "condxrfman_avg": 1.3995226537681371e-07,
+        "anneal_temperature": 198.91786193847656
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 196.2642059326172
+      },
+      {
+        "condxrfman_avg": 4.058019232104791e-08,
+        "anneal_temperature": 203.85365295410156
+      },
+      {
+        "condxrfman_avg": 5.047980116584092e-07,
+        "anneal_temperature": 224.39215087890625
+      },
+      {
+        "condxrfman_avg": 2.7743158933286236e-07,
+        "anneal_temperature": 223.81964111328125
+      },
+      {
+        "condxrfman_avg": 5.098234006747146e-07,
+        "anneal_temperature": 212.4146728515625
+      },
+      {
+        "condxrfman_avg": 3.113592787456464e-08,
+        "anneal_temperature": 200.58636474609375
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 188.35562133789062
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 181.1585235595703
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 180.24844360351562
+      },
+      {
+        "condxrfman_avg": 1.9791533080697664e-07,
+        "anneal_temperature": 264.33807373046875
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 184.25584411621094
+      },
+      {
+        "condxrfman_avg": 3.5358146487792883e-07,
+        "anneal_temperature": 229.1809539794922
+      },
+      {
+        "condxrfman_avg": 5.756606053389547e-07,
+        "anneal_temperature": 260.7192687988281
+      },
+      {
+        "condxrfman_avg": 3.71426964740186e-07,
+        "anneal_temperature": 249.66586303710938
+      },
+      {
+        "condxrfman_avg": 1.1889893550815477e-08,
+        "anneal_temperature": 276.82989501953125
+      },
+      {
+        "condxrfman_avg": 8.166218207418393e-08,
+        "anneal_temperature": 223.42251586914062
+      },
+      {
+        "condxrfman_avg": 2.465961050480433e-08,
+        "anneal_temperature": 202.95257568359375
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 200.28269958496094
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 196.36221313476562
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 180.230712890625
+      },
+      {
+        "condxrfman_avg": 5.292691790916716e-07,
+        "anneal_temperature": 239.50978088378906
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 184.1900177001953
+      },
+      {
+        "condxrfman_avg": 3.766281334880889e-07,
+        "anneal_temperature": 253.50442504882812
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 193.23020935058594
+      },
+      {
+        "condxrfman_avg": 6.706394984799746e-07,
+        "anneal_temperature": 257.7873229980469
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 194.8937225341797
+      },
+      {
+        "condxrfman_avg": 1.6977426404221676e-08,
+        "anneal_temperature": 209.07122802734375
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 198.5233612060547
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 194.1928253173828
+      },
+      {
+        "condxrfman_avg": 7.565838910363841e-07,
+        "anneal_temperature": 277.3482360839844
+      },
+      {
+        "condxrfman_avg": 6.407874191080812e-07,
+        "anneal_temperature": 272.1824951171875
+      },
+      {
+        "condxrfman_avg": 2.8138358791341273e-07,
+        "anneal_temperature": 251.5506591796875
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 189.07164001464844
+      },
+      {
+        "condxrfman_avg": 3.361036636043191e-07,
+        "anneal_temperature": 247.5609130859375
+      },
+      {
+        "condxrfman_avg": 1.9737078131858214e-07,
+        "anneal_temperature": 247.83984375
+      },
+      {
+        "condxrfman_avg": 6.777660192008738e-08,
+        "anneal_temperature": 217.52264404296875
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 200.59918212890625
+      },
+      {
+        "condxrfman_avg": 4.322015489538064e-08,
+        "anneal_temperature": 206.45947265625
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 194.48753356933594
+      },
+      {
+        "condxrfman_avg": 1.538961221381166e-07,
+        "anneal_temperature": 264.82647705078125
+      },
+      {
+        "condxrfman_avg": 4.219990038651725e-07,
+        "anneal_temperature": 247.28472900390625
+      },
+      {
+        "condxrfman_avg": 1.8611031064539718e-07,
+        "anneal_temperature": 226.439208984375
+      },
+      {
+        "condxrfman_avg": 1.0471789364962981e-07,
+        "anneal_temperature": 213.7967071533203
+      },
+      {
+        "condxrfman_avg": 5.982974787047374e-07,
+        "anneal_temperature": 257.6376647949219
+      },
+      {
+        "condxrfman_avg": 2.142349845002617e-08,
+        "anneal_temperature": 205.5087432861328
+      },
+      {
+        "condxrfman_avg": 7.428702653812686e-08,
+        "anneal_temperature": 203.1072540283203
+      },
+      {
+        "condxrfman_avg": 1.1264911997514276e-07,
+        "anneal_temperature": 252.5382843017578
+      },
+      {
+        "condxrfman_avg": 1.5496474483829912e-07,
+        "anneal_temperature": 247.1460723876953
+      },
+      {
+        "condxrfman_avg": 3.119005211269566e-07,
+        "anneal_temperature": 247.55430603027344
+      },
+      {
+        "condxrfman_avg": 5.72613159401121e-09,
+        "anneal_temperature": 200.88925170898438
+      },
+      {
+        "condxrfman_avg": 1.8963149824687052e-07,
+        "anneal_temperature": 241.57058715820312
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 180.4064483642578
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 256.3056640625
+      },
+      {
+        "condxrfman_avg": 2.588141833105936e-07,
+        "anneal_temperature": 260.9374694824219
+      },
+      {
+        "condxrfman_avg": 6.081738005902991e-07,
+        "anneal_temperature": 270.8951416015625
+      },
+      {
+        "condxrfman_avg": 6.821400995677268e-07,
+        "anneal_temperature": 275.42364501953125
+      },
+      {
+        "condxrfman_avg": 3.1804692341732347e-07,
+        "anneal_temperature": 196.66957092285156
+      },
+      {
+        "condxrfman_avg": 1.6507410691640955e-07,
+        "anneal_temperature": 241.33154296875
+      },
+      {
+        "condxrfman_avg": 9.159942113638377e-07,
+        "anneal_temperature": 276.356689453125
+      },
+      {
+        "condxrfman_avg": 0.0,
+        "anneal_temperature": 197.4940643310547
+      },
+      {
+        "condxrfman_avg": 5.246614019504328e-07,
+        "anneal_temperature": 234.61212158203125
+      }
+    ]
+  },
+  "requested": {
+    "fuel_oxidizer_ratio": [],
+    "acac_amount": [],
+    "concentration": [],
+    "anneal_temperature": []
+  },
+  "parameters": [
+    {
+      "name": "fuel_oxidizer_ratio",
+      "pmin": 0,
+      "pmax": 2,
+      "range": 2,
+      "true_x": null,
+      "function": null
+    },
+    {
+      "name": "acac_amount",
+      "pmin": 0.0,
+      "pmax": 1.0,
+      "range": 1.0,
+      "true_x": null,
+      "function": null
+    },
+    {
+      "name": "concentration",
+      "pmin": 0.006,
+      "pmax": 0.012,
+      "range": 0.006,
+      "true_x": null,
+      "function": null
+    },
+    {
+      "name": "anneal_temperature",
+      "pmin": 180.0,
+      "pmax": 280.0,
+      "range": 100.0,
+      "true_x": null,
+      "function": null
+    }
+  ],
+  "_attr": "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"
+}
