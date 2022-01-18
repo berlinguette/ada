@@ -1,3 +1,4 @@
+# Self-driving laboratories can advance the Pareto front for thin-film materials
 Benjamin P. MacLeod<sup>1,2,</sup>\*, Fraser G. L. Parlane<sup>1,2,</sup>\*, Kevan E. Dettelbach<sup>1</sup>, Michael S. Elliott<sup>1</sup>, Connor C. Rupnow<sup>1,2,3</sup>, Thomas D. Morrissey<sup>1,2</sup>, Ted H. Haley<sup>1</sup>, Oleksii Proskurin<sup>1</sup>, Michael B. Rooney<sup>1</sup>, Nina Taherimakhsousi<sup>1</sup>, David J. Dvorak<sup>2</sup>, Hsi N. Chiu<sup>1</sup>, Christopher E. B. Waizenegger<sup>1</sup>, Karry Ocean<sup>1</sup>, & Curtis P. Berlinguette<sup>1,2,3,4,†</sup>
 
 <sup>1</sup>Department of Chemistry, The University of British Columbia, 2036 Main Mall, Vancouver, BC V6T 1Z1, Canada. \
