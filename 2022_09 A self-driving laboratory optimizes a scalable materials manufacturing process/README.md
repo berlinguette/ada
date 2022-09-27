@@ -1,6 +1,6 @@
 # A self-driving laboratory optimizes a scalable materials manufacturing process 
 
-## Here is data necessary for submission to AI for Accelerated Materials Design NeurIPS '22 Workshop:
+### Here is data necessary for submission to AI for Accelerated Materials Design NeurIPS '22 Workshop:
 
 - Optimization campaign data
   - [Raw optimization data (folder)](https://drive.google.com/drive/folders/1Z7upyzbPNqwI9VPDgjrM31_w4rHkWAZ8?usp=sharing)
