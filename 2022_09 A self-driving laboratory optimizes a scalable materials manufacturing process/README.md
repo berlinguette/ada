@@ -3,7 +3,7 @@
 ### Here is data necessary for submission to AI for Accelerated Materials Design NeurIPS '22 Workshop:
 
 - Optimization campaign data
-  - [Raw optimization data (folder)](https://drive.google.com/drive/folders/1tWQHuvtm8xXjVzXE_sKjjsH3nxV7tpvZ?usp=sharing)
+  - [Raw optimization data (folder)](https://drive.google.com/drive/folders/1Z7upyzbPNqwI9VPDgjrM31_w4rHkWAZ8?usp=sharing)
   - Compiled optimization data
     - [Compiled optimization data csv](https://drive.google.com/file/d/1177jP5vezqTl6H4KoZmVS9S4IERNJoCH/view?usp=sharing)
     
