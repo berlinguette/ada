@@ -1,0 +1,25 @@
+2022-07-14 11:23:21,020 - data_pipeline - INFO - running CampaignParameters
+2022-07-14 11:23:21,021 - data_pipeline - INFO - LocalCampaignParameters - Reading Campaign Parameters
+2022-07-14 11:23:21,537 - data_pipeline - INFO - running ProcessSampleParameters
+2022-07-14 11:23:21,538 - data_pipeline - INFO - LocalProcessSampleParameters - Reformatting Sample Parameters
+2022-07-14 11:23:21,559 - data_pipeline - INFO - LocalProcessSampleParameters - Saving sample parameters data
+2022-07-14 11:23:21,577 - data_pipeline - INFO - running ProcessConductance
+2022-07-14 11:23:21,578 - data_pipeline - INFO - LocalProcessConductance - Processing Conductivity
+2022-07-14 11:23:21,579 - data_pipeline - INFO - LocalProcessConductance - Processing Conductivity for sample 152
+2022-07-14 11:23:21,582 - data_pipeline - INFO - LocalProcessConductance - Processing conductivity for sample 152, position 0
+2022-07-14 11:23:21,601 - data_pipeline - INFO - LocalProcessConductance - Processing conductivity for sample 152, position 1
+2022-07-14 11:23:21,620 - data_pipeline - INFO - LocalProcessConductance - Processing conductivity for sample 152, position 2
+2022-07-14 11:23:21,640 - data_pipeline - INFO - LocalProcessConductance - Processing conductivity for sample 152, position 3
+2022-07-14 11:23:21,658 - data_pipeline - INFO - LocalProcessConductance - Processing conductivity for sample 152, position 4
+2022-07-14 11:23:21,682 - data_pipeline - INFO - LocalProcessConductance - Saving position conductivity data
+2022-07-14 11:23:21,690 - data_pipeline - INFO - LocalProcessConductance - Saving sample conductivity data
+2022-07-14 11:23:21,701 - data_pipeline - INFO - LocalProcessConductance - Saving raw conductivity data
+2022-07-14 11:23:21,721 - data_pipeline - INFO - running ProcessXRF
+2022-07-14 11:23:21,722 - data_pipeline - INFO - LocalProcessXRF - Processing XRF
+2022-07-14 11:23:25,703 - data_pipeline - INFO - running CalculatePseudoconductivity
+2022-07-14 11:23:25,978 - data_pipeline - INFO - running AggregateData
+2022-07-14 11:23:26,023 - data_pipeline - INFO - LocalAggregateData - Saving aggregate sample data
+2022-07-14 11:23:26,050 - data_pipeline - INFO - running CustomTransformations
+2022-07-14 11:23:26,051 - data_pipeline - INFO - No cost parameters provided. Cost not calculated.
+2022-07-14 11:23:26,066 - data_pipeline - INFO - running DataEntry
+2022-07-14 11:23:26,066 - data_pipeline - INFO - LocalDataEntry - Complete the pipeline
