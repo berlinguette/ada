@@ -12,7 +12,7 @@ Connor C. Rupnow<sup>1</sup>, Benjamin P. MacLeod<sup>2,</sup>, Mehrdad Mokhtari
 
 In this work, an optimization was performed using a self-driving laboratory. Following the optimization, the champion material was scaled up and deposited on a substrate 8x larger. 
 
-The data from the optimization can be found in the optimization campaign data folder. The self-driving lab performed 91 unique experiments in duplicate (except for some samples that failed) and created 179 individual Pd film samples. The self-driving lab was stopped and started five times over the course of the optimization due to various minor issues (e.g. software error, robot arm crashes into something, out of pipettes, etc.). The raw sample data from the opimization can be found in the folder "raw optimization campaign data" in the subfolders:
+The data from the optimization can be found in the optimization campaign data folder. The self-driving lab performed 91 unique experiments in duplicate (except for some samples that failed) and created 179 individual Pd film samples. The self-driving lab was stopped and started five times over the course of the optimization due to various minor issues (e.g. software error, robot arm crashes into something, out of pipettes, etc.). The raw sample data from the opimization can be found in the folder `raw optimization campaign data` in the subfolders:
 
 * `2022-07-11_12-55-37` (samples 0-29, random)
 * `2022-07-12_10-41-55` (samples 0-29, random)
@@ -24,7 +24,7 @@ The data contained within these folders is shared with you as it is taken direct
 
 The important inputs, outputs, measurements, and timestamps for each sample have been compiled into a csv contained within the main 'optimization campaign data' folder; called compiled_optimization_data.csv. Each row of the csv file is an individual sample and each sample has the following columns: 
 * `sample`: unique sample identifier (in the order they were made)
-* The following columns have `\_requested` and `\_realized` columns corresponding to the value of the parameter requested by the experimental planning algorithm (e.g. combustion_temp_requested = 250 °C) and the value of the parameter as measured by the sensors (e.g. combustion_temp_realized = 250.465 °C). Some parameters do not have sensors or cannot be measured with a sensor, thus the realized value is equal to the requested value.
+* The following columns have `_requested` and `_realized` columns corresponding to the value of the parameter requested by the experimental planning algorithm (e.g. combustion_temp_requested = 250 °C) and the value of the parameter as measured by the sensors (e.g. combustion_temp_realized = 250.465 °C). Some parameters do not have sensors or cannot be measured with a sensor, thus the realized value is equal to the requested value.
   * `concentration`: the total concentration of the precursor ink (g/mL)
   * `DMSO_content`: the relative amount of DMSO in the precursor ink (v/v)
   * `combustion_temp`: the temperature of the hotplate fixture surface as measured by a thermocouple (°C)
@@ -32,42 +32,32 @@ The important inputs, outputs, measurements, and timestamps for each sample have
   * `spray_flow_rate`: the flowrate of the ink out of the spray nozzle as determined by the syringe pump (mL/s)
   * `spray_height`: the height of the nozzle above the substrate (mm)
   * `num_passes`: the number of times the spraycoater would repeat the spraycoating pattern over the substrate
-  * `Pd_ACN_robot_realized`
-  * `acac_ACN_robot_realized`
-  * `ACN_robot_realized`
-  * `DMSO_robot_realized`
-* The following measurements have `\_avg` and `\_std` columns corresponding to the average and standard deviation of the measurements
+  * `Pd_ACN_robot_realized`: the amount of palladium nitrate in acetonitrile stock solution in the precursor ink (mL)
+  * `acac_ACN_robot_realized`: the amount of acetylacetone in acetonitrile stock solution in the precursor ink (mL)
+  * `ACN_robot_realized`: the amount of acetonitrile in the precursor ink (mL)
+  * `DMSO_robot_realized`: the amount of dimethylsulfoxide in the precursor ink (mL)
+* The following measurements have `_avg` and `_std` columns corresponding to the average and standard deviation of the measurements
   * `conductance`<sup>\*</sup>: 
   * `thickness`
   * `sheet_conductance`
-  * `sheet_conductance`
   * `sheet_resistance_avg`
-  * `sheet_resistance_std`
   * `conductivity_avg`
-  * `conductivity_std`
   * `resistivity_avg`
-  * `resistivity_std`
-  * <sup>\*</sup>note that conductance is labelled as `\_mean` instead of `\_avg`
+  * <sup>\*</sup>note that conductance is labelled as `_mean` instead of `_avg`
 * `conductive_fraction`: the number of 4-point probe measurements (out of 5) that resulted in conductance greater than zero (expressed as a fraction)
-* `campaign_ID`
-* `exp_num`
-* `running_best_conductivity`
-* `beta`
-* `nozzle_speed`
-* `SAMPLE_START`
-* `MIX_CHEMICALS_START`
-* `SPRAY_COAT_START`
+* `campaign_ID`: the optimization campaign ID corresponding to when the sample was created. Each individual sammple can be found in a subfolder of the same name in the folder `raw optimization campaign data`
+* `exp_num`: a unique identifier corresponding to duplicates with the same requested experimental conditions
+* `running_best_conductivity`: the value of best conductivity at the time the sample was created
+* `beta`: the sample-selection mode that the acquisition function was using to determine the experimental conditions for the sample. The first 30 samples (15 experiments) were selected randomly. The following samples were selected using an alternating acquisition mode. The four sampling modes were: upper confidence bound (UCB) beta = 0.2, UCB beta = 20, UCB beta = 400, space-filling (SF) point.
+* `nozzle_speed`: the speed at which the nozzle moves while spraying. The number is calculated by XXX
+* The following columns are timestamps corresponding to the time at which each task started and finished. Each columns has a `_START` and `_FINISH`.
+* `SAMPLE`: started when experimental conditions are requested and finished when characterization data is done being processed
+* `MIX_CHEMICALS`
+* `SPRAY_COAT`
 * `XRF_START`
-* `MICROSCOPE_START`
-* `CONDUCTIVITY_START`
-* `FLIR_CAMERA_START`
-* `MIX_CHEMICALS_FINISH`
-* `SPRAY_COAT_FINISH`
-* `XRF_FINISH`
-* `MICROSCOPE_FINISH`
-* `CONDUCTIVITY_FINISH`	
-* `FLIR_CAMERA_FINISH`
-* `SAMPLE_FINISH`
+* `MICROSCOPE`
+* `CONDUCTIVITY`
+* `FLIR_CAMERA`
 
  
 Each campaign is composed of several samples (or ordered rows). Each campaign CSV file has the following columns: 
