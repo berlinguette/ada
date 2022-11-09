@@ -10,7 +10,9 @@ Connor C. Rupnow<sup>1</sup>, Benjamin P. MacLeod<sup>2,</sup>, Mehrdad Mokhtari
 
 ## data organization
 
-In this work, an optimization was performed using a self-driving laboratory. Following the optimization, the champion material was scaled up and deposited on a substrate 8x larger. 
+In this work, an optimization was performed using a self-driving laboratory. Following the optimization, the champion material was scaled up and deposited on a substrate 8x larger. The data for such experiments can be found here.
+
+### Raw campaign data
 
 The data from the optimization can be found in the optimization campaign data folder. The self-driving lab performed 91 unique experiments in duplicate (except for some samples that failed) and created 179 individual Pd film samples. The self-driving lab was stopped and started five times over the course of the optimization due to various minor issues (e.g. software error, robot arm crashes into something, out of pipettes, etc.). The raw sample data from the opimization can be found in the folder `raw optimization campaign data` in the subfolders:
 
@@ -21,6 +23,8 @@ The data from the optimization can be found in the optimization campaign data fo
 * `2022-07-14_14-54-21` (samples 0-29, random)
 
 The data contained within these folders is shared with you as it is taken directly from the self-driving laboratory. Opening a sample folder within one of these dated folders will provide you with processed and unprocessed conductivity, microscope, XRF, and camera images and data. There is also a sample_log.log that records amounts, timestamps, and other important events that happen to each indiviudal sample. The raw data is porcessed and contained within the 'data_pipeline' folder.
+
+### Compiled campaign data
 
 The important inputs, outputs, measurements, and timestamps for each sample have been compiled into a csv contained within the main 'optimization campaign data' folder; called compiled_optimization_data.csv. Each row of the csv file is an individual sample and each sample has the following columns: 
 * `sample`: unique sample identifier (in the order they were made)
