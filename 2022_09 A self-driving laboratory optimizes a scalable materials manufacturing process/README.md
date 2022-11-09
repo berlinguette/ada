@@ -23,61 +23,61 @@ The data from the optimization can be found in the optimization campaign data fo
 The data contained within these folders is shared with you as it is taken directly from the self-driving laboratory. Opening a sample folder within one of these dated folders will provide you with processed and unprocessed conductivity, microscope, XRF, and camera images and data. There is also a sample_log.log that records amounts, timestamps, and other important events that happen to each indiviudal sample. The raw data is porcessed and contained within the 'data_pipeline' folder.
 
 The important inputs, outputs, measurements, and timestamps for each sample have been compiled into a csv contained within the main 'optimization campaign data' folder; called compiled_optimization_data.csv. Each row of the csv file is an individual sample and each sample has the following columns: 
-* 'sample': the unique sample identifier (in the order they were made)
-* 'concentration_realized': the total concetration of the precursor ink (g/mL)
-* 'DMSO_content_realized': the relative amount of DMSO in the precursor ink (v/v)
-* 'combustion_temp_realized': the temperature of the hotplate fixture surface as measured by a thermocouple (°C)
-* 'air_flow_rate_realized': the relative amount that the airflow valve was open (%)
-* 'spray_flow_rate_realized': the flowrate of the ink out of the spray nozzle as determined by the syringe pump (mL/s)
-* 'spray_height_realized': the height of the nozzle above the substrate (mm)
-* 'num_passes_realized': the number of times the spraycoater would repeat the spraycoating pattern over the substrate
-* 'concentration_requested'
-* DMSO_content_requested
-* combustion_temp_requested
-* air_flow_rate_requested
-* spray_flow_rate_requested
-* spray_height_requested
-* num_passes_requested
-* Pd_ACN_robot_realized
-* acac_ACN_robot_realized
-* ACN_robot_realized
-* DMSO_robot_realized
-* Pd_ACN_robot_requested
-* acac_ACN_robot_requested
-* ACN_robot_requested
-* DMSO_robot_requested
-* conductance_mean
-* conductance_std
-* conductive_fraction
-* thickness_avg
-* thickness_std
-* sheet_conductance_avg
-* sheet_conductance_std
-* sheet_resistance_avg
-* sheet_resistance_std
-* conductivity_avg
-* conductivity_std
-* resistivity_avg
-* resistivity_std
-* campaign_ID
-* exp_num
-* running_best_conductivity
-* beta
-* nozzle_speed
-* SAMPLE_START	
-* MIX_CHEMICALS_START	
-* SPRAY_COAT_START	
-* XRF_START	
-* MICROSCOPE_START	
-* CONDUCTIVITY_START	
-* FLIR_CAMERA_START	
-* MIX_CHEMICALS_FINISH	
-* SPRAY_COAT_FINISH	
-* XRF_FINISH	
-* MICROSCOPE_FINISH	
-* CONDUCTIVITY_FINISH	
-* FLIR_CAMERA_FINISH	
-* SAMPLE_FINISH
+* `sample`: the unique sample identifier (in the order they were made)
+* `concentration_realized`: the total concetration of the precursor ink (g/mL)
+* `DMSO_content_realized`: the relative amount of DMSO in the precursor ink (v/v)
+* `combustion_temp_realized`: the temperature of the hotplate fixture surface as measured by a thermocouple (°C)
+* `air_flow_rate_realized`: the relative amount that the airflow valve was open (%)
+* `spray_flow_rate_realized`: the flowrate of the ink out of the spray nozzle as determined by the syringe pump (mL/s)
+* `spray_height_realized`: the height of the nozzle above the substrate (mm)
+* `num_passes_realized`: the number of times the spraycoater would repeat the spraycoating pattern over the substrate
+* `concentration_requested`
+* `DMSO_content_requested`
+* `combustion_temp_requested`
+* `air_flow_rate_requested`
+* `spray_flow_rate_requested`
+* `spray_height_requested`
+* `num_passes_requested`
+* `Pd_ACN_robot_realized`
+* `acac_ACN_robot_realized`
+* `ACN_robot_realized`
+* `DMSO_robot_realized`
+* `Pd_ACN_robot_requested`
+* `acac_ACN_robot_requested`
+* `ACN_robot_requested`
+* `DMSO_robot_requested`
+* `conductance_mean`
+* `conductance_std`
+* `conductive_fraction`
+* `thickness_avg`
+* `thickness_std`
+* `sheet_conductance_avg`
+* `sheet_conductance_std`
+* `sheet_resistance_avg`
+* `sheet_resistance_std`
+* `conductivity_avg`
+* `conductivity_std`
+* `resistivity_avg`
+* `resistivity_std`
+* `campaign_ID`
+* `exp_num`
+* `running_best_conductivity`
+* `beta`
+* `nozzle_speed`
+* `SAMPLE_START`
+* `MIX_CHEMICALS_START`
+* `SPRAY_COAT_START`
+* `XRF_START`
+* `MICROSCOPE_START`
+* `CONDUCTIVITY_START`
+* `FLIR_CAMERA_START`
+* `MIX_CHEMICALS_FINISH`
+* `SPRAY_COAT_FINISH`
+* `XRF_FINISH`
+* `MICROSCOPE_FINISH`
+* `CONDUCTIVITY_FINISH`	
+* `FLIR_CAMERA_FINISH`
+* `SAMPLE_FINISH`
 
  
 Each campaign is composed of several samples (or ordered rows). Each campaign CSV file has the following columns: 
