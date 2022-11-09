@@ -67,6 +67,6 @@ The important inputs, outputs, measurements, and timestamps for each sample have
 
 CSV files of the `conductance`, `thickness`, and `conductivity` are shared for the 50mm x 25mm film and the 100mm x 100mm Pd films. Each CSV file is a function of position. Details on the measurements and positions can be found in the methods of the paper. 
 
-### supplementary figS7 dataset
+### Supplementary figS7 dataset
 
 A follow-up experiment was performed using the self-driving laboratory to confirm that DMSO can suppress the Leidenfrost effect. The dataset provided is similar to the `compiled_optimization_data.csv`, containing many of the same columns. This experiment was not an optimization but a grid experiments, showcasing the versatility of a self-driving lab for both hypothesis driven experiments and optimizations.
