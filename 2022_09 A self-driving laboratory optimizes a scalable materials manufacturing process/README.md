@@ -32,16 +32,16 @@ The important inputs, outputs, measurements, and timestamps for each sample have
   * `concentration`: the total concentration of the precursor ink (g/mL)
   * `DMSO_content`: the relative amount of DMSO in the precursor ink (v/v)
   * `combustion_temp`: the temperature of the hotplate fixture surface as measured by a thermocouple (°C)
-  * `air_flow_rate`\*: the relative amount that the airflow valve was open (%)
-  * `spray_flow_rate`\*: the flowrate of the ink out of the spray nozzle as determined by the syringe pump (mL/s)
-  * `spray_height`\*: the height of the nozzle above the substrate (mm)
-  * `num_passes`\*: the number of times the spraycoater would repeat the spraycoating pattern over the substrate
+  * \*`air_flow_rate`: the relative amount that the airflow valve was open (%)
+  * \*`spray_flow_rate`: the flowrate of the ink out of the spray nozzle as determined by the syringe pump (mL/s)
+  * \*`spray_height`: the height of the nozzle above the substrate (mm)
+  * \*`num_passes`: the number of times the spraycoater would repeat the spraycoating pattern over the substrate
   * `Pd_ACN_robot_realized`: the amount of palladium nitrate in acetonitrile stock solution in the precursor ink (mL)
   * `acac_ACN_robot_realized`: the amount of acetylacetone in acetonitrile stock solution in the precursor ink (mL)
   * `ACN_robot_realized`: the amount of acetonitrile in the precursor ink (mL)
   * `DMSO_robot_realized`: the amount of dimethylsulfoxide in the precursor ink (mL)
 * The following measurements have `_avg` and `_std` columns corresponding to the average and standard deviation of the measurements
-  * `conductance`\**: 
+  * \**`conductance` 
   * `thickness`
   * `sheet_conductance`
   * `sheet_resistance_avg`
