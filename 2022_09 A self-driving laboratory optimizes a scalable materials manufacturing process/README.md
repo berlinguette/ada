@@ -51,11 +51,11 @@ The important inputs, outputs, measurements, and timestamps for each sample have
 * `beta`: the sample-selection mode that the acquisition function was using to determine the experimental conditions for the sample. The first 30 samples (15 experiments) were selected randomly. The following samples were selected using an alternating acquisition mode. The four sampling modes were: upper confidence bound (UCB) beta = 0.2, UCB beta = 20, UCB beta = 400, space-filling (SF) point.
 * `nozzle_speed`: the speed at which the nozzle moves while spraying. The number is calculated by XXX
 * The following columns are timestamps corresponding to the time at which each task started and finished. Each columns has a `_START` and `_FINISH`.
-* `SAMPLE`: started when experimental conditions are requested and finished when characterization data is done being processed
-* `MIX_CHEMICALS`
-* `SPRAY_COAT`
-* `XRF_START`
-* `MICROSCOPE`
-* `CONDUCTIVITY`
-* `FLIR_CAMERA`
+  * `SAMPLE`: started when experimental conditions are requested and finished when characterization data is done being processed
+  * `MIX_CHEMICALS`
+  * `SPRAY_COAT`
+  * `XRF_START`
+  * `MICROSCOPE`
+  * `CONDUCTIVITY`
+  * `FLIR_CAMERA`
   
