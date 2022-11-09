@@ -58,27 +58,4 @@ The important inputs, outputs, measurements, and timestamps for each sample have
 * `MICROSCOPE`
 * `CONDUCTIVITY`
 * `FLIR_CAMERA`
-
- 
-Each campaign is composed of several samples (or ordered rows). Each campaign CSV file has the following columns: 
- * `sample`: The ordered sample number 
- * `x0: fuel to oxidizer ratio`: The ratio of fuel to oxidizer, where 0 is no fuel, and 1 is a 1:1 ratio. 
- * `x1: acac amount`: The glycine to acetylacetone composition, where 0 is pure glycine and 1 is pure acetylacetone.
- * `x2: total concentration`: The total concetration of the precursor solution (g mL<sup>-1</sup>).
- * `x3: temperature`: The temperature at which the film was annealed (Celcius).
- * `conductance - mean`: The conductance per position on the sample - mean (Siemens).
- * `conductance - std`: The conductance per position on the sample - standard deviation (Siemens).
- * `XRF-normalized conductance - mean`: The XRF-normalized conductance - mean (S cps<sup>-1</sup>). 
- * `XRF-normalized conductance - std`: The XRF-normalized conductance - standard deviation (S cps<sup>-1</sup>).
- * `Conductivity - mean`: The conductivity of the film - mean (S m<sup>-1</sup>).
-
-## Raw data organization
-
-The `raw_data/` directory contains four optimizations (or campaigns). These optimizations are labelled `%Y-%m-%d_%H-%M-%S` (see [ref](https://strftime.org/)) and contain all the raw data collected for each optimization. Each optimization contains many samples, labelled `sample_x`. Each sample directory contains directories for each measurement taken, including `CONDUCTIVITY`, `IMAGES`, and `SENSOR` for oven data. Note that the raw XRF data has not been included due to space limitations. Please communicate with the authors if the data is required.
-
-The processed data for this campaign is in the folder prepended with `_results`.
-
-Additional `.json` and `.log` files contain sample- and optimization-level metadata, such as instrument configuration and experimental parameters.
-
-
   
