@@ -53,7 +53,7 @@ The important inputs, outputs, measurements, and timestamps for each sample have
 * `exp_num`: a unique identifier corresponding to duplicates with the same requested experimental conditions
 * `running_best_conductivity`: the value of best conductivity at the time the sample was created
 * `beta`: the sample-selection mode that the acquisition function was using to determine the experimental conditions for the sample. The first 30 samples (15 experiments) were selected randomly. The following samples were selected using an alternating acquisition mode. The four sampling modes were: upper confidence bound (UCB) beta = 0.2, UCB beta = 20, UCB beta = 400, space-filling (SF) point.
-* `nozzle_speed`: the speed at which the nozzle moves while spraying. The number is calculated by XXX
+* `nozzle_speed`: the speed at which the nozzle moves while spraying. The number is calculated by the equation `spray_flowrate`\*`num_lines`\*`spray_pattern_length`\*`num_passes`\/`spray_volume`
 * The following columns are timestamps corresponding to the time at which each task started and finished. Each columns has a `_START` and `_FINISH`.
   * `SAMPLE`
   * `MIX_CHEMICALS`
