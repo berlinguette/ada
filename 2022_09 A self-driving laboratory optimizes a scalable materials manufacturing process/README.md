@@ -10,7 +10,7 @@ Connor C. Rupnow<sup>1</sup>, Benjamin P. MacLeod<sup>2,</sup>, Mehrdad Mokhtari
 
 ## data organization
 
-In this work, an optimization was performed using a self-driving laboratory. Following the optimization, the champion material was scaled up and deposited on a substrate 8x larger. The data for such experiments can be found here.
+In this work, the conductivity of palladium thin films was optimized using a self-driving laboratory. Following the optimization, the champion material was scaled up and deposited on a substrate 8x larger. The data for such experiments can be found here.
 
 ### Raw campaign data
 
