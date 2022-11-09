@@ -1,5 +1,5 @@
 # Self-driving laboratories can advance the Pareto front for thin-film materials
-Connor C. Rupnow<sup>1</sup>, Benjamin P. MacLeod<sup>2,</sup>, Mehrdad Mokhtari<sup>2</sup>, Karry Ocean<sup>2</sup>, Kevan E. Dettelbach<sup>2</sup>,     Daniel Lin<sup>2,</sup>, Fraser G. L. Parlane<sup>2,</sup>\*, Michael B. Rooney<sup>2</sup>, Hsi N. Chiu<sup>2</sup>, Christopher E. B. Waizenegger<sup>2</sup>,  & Curtis P. Berlinguette<sup>1,2,3,4,†</sup>
+Connor C. Rupnow<sup>1</sup>, Benjamin P. MacLeod<sup>2,</sup>, Mehrdad Mokhtari<sup>2</sup>, Karry Ocean<sup>2</sup>, Kevan E. Dettelbach<sup>2</sup>,     Daniel Lin<sup>2,</sup>, Fraser G. L. Parlane<sup>2,</sup>, Michael B. Rooney<sup>2</sup>, Hsi N. Chiu<sup>2</sup>, Christopher E. B. Waizenegger<sup>2</sup>,  & Curtis P. Berlinguette<sup>1,2,3,4,†</sup>
 
 <sup>1</sup>Department of Chemical and Biological Engineering, The University of British Columbia, 2360 East Mall, Vancouver, BC V6T 1Z3, Canada. \
 <sup>2</sup>Department of Chemistry, The University of British Columbia, 2036 Main Mall, Vancouver, BC V6T 1Z1, Canada. \
@@ -32,7 +32,7 @@ The important inputs, outputs, measurements, and timestamps for each sample have
   * `concentration`: the total concentration of the precursor ink (g/mL)
   * `DMSO_content`: the relative amount of DMSO in the precursor ink (v/v)
   * `combustion_temp`: the temperature of the hotplate fixture surface as measured by a thermocouple (°C)
-  * `air_flow_rate`<sup>\*</sup>: the relative amount that the airflow valve was open (%)
+  * `air_flow_rate`\*: the relative amount that the airflow valve was open (%)
   * `spray_flow_rate`<sup>\*</sup>: the flowrate of the ink out of the spray nozzle as determined by the syringe pump (mL/s)
   * `spray_height`<sup>\*</sup>: the height of the nozzle above the substrate (mm)
   * `num_passes`<sup>\*</sup>: the number of times the spraycoater would repeat the spraycoating pattern over the substrate
