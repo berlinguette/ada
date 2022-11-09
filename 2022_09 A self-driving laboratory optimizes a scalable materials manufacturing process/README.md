@@ -63,3 +63,6 @@ The important inputs, outputs, measurements, and timestamps for each sample have
   * `CONDUCTIVITY`
   * `FLIR_CAMERA`
   
+### Scale-up experiment
+
+CSV files of the `conductance`, `thickness`, and `conductivity` are shared for the 50mm x 25mm film and the 100mm x 100mm Pd films. Each CSV file is a function of position. Details on the measurements and positions can be found in the methods of the paper. 
