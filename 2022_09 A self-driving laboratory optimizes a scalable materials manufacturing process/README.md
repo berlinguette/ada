@@ -15,9 +15,9 @@ In this work, an optimization was performed using a self-driving laboratory. Fol
 The data from the optimization can be found in the optimization campaign data folder. The self-driving lab performed 91 unique experiments in duplicate (except for some samples that failed) and created 179 individual Pd film samples. The self-driving lab was stopped and started five times over the course of the optimization due to various minor issues (e.g. software error, robot arm crashes into something, out of pipettes, etc.). The raw sample data from the opimization can be found in the folder "raw optimization campaign data" in the subfolders:
 
 * "2022-07-11_12-55-37" (samples 0-29, random)
-* '2022-07-12_10-41-55' (samples 0-29, random)
-* '2022-07-13_09-53-56' (samples 0-29, random)
-* '2022-07-13_23-11-10' (samples 0-29, random)
+* ‘2022-07-12_10-41-55‘ (samples 0-29, random)
+* ’2022-07-13_09-53-56’ (samples 0-29, random)
+* ”2022-07-13_23-11-10” (samples 0-29, random)
 * '2022-07-14_14-54-21' (samples 0-29, random)
 
 The data contained within these folders is shared with you as it is taken directly from the self-driving laboratory. Opening a sample folder within one of these dated folders will provide you with processed and unprocessed conductivity, microscope, XRF, and camera images and data. There is also a sample_log.log that records amounts, timestamps, and other important events that happen to each indiviudal sample. The raw data is porcessed and contained within the 'data_pipeline' folder.
