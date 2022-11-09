@@ -43,7 +43,7 @@ The important inputs, outputs, measurements, and timestamps for each sample have
   * `sheet_resistance_avg`
   * `conductivity_avg`
   * `resistivity_avg`
-  * <sup>\**</sup>note that conductance is labelled as `_mean` instead of `_avg`
+  * <sup>\**</sup>note that for conductance, `_avg` is labelled as `_mean` instead
 * `conductive_fraction`: the number of 4-point probe measurements (out of 5) that resulted in conductance greater than zero (expressed as a fraction)
 * `campaign_ID`: the optimization campaign ID corresponding to when the sample was created. Each individual sammple can be found in a subfolder of the same name in the folder `raw optimization campaign data`
 * `exp_num`: a unique identifier corresponding to duplicates with the same requested experimental conditions
