@@ -22,13 +22,13 @@ The data from the optimization can be found in the optimization campaign data fo
 * `2022-07-13_23-11-10` (samples 117-162, bayesian optimizer)
 * `2022-07-14_14-54-21` (samples 163-179, bayesian optimizer)
 
-The data contained within these folders is shared with you as it is taken directly from the self-driving laboratory. Opening a sample folder within one of these dated folders will provide you with processed and unprocessed conductivity, microscope, XRF, camera images and data. There is also a sample_log.log that records amounts, timestamps, and other important events that happen to each indiviudal sample. The processed data is contained within the 'data_pipeline' folder.
+The data contained within these folders is shared with you as it is taken directly from the self-driving laboratory. Opening a sample folder within one of these dated folders will provide you with processed and unprocessed conductivity, microscope, XRF, camera images and data. There is also a sample_log.log that records amounts, timestamps, and other important events that happen to each indiviudal sample. The processed data is contained within the `data_pipeline` folder.
 
 ### Compiled campaign data
 
-The important inputs, outputs, measurements, and timestamps for each sample have been compiled into a csv contained within the main 'optimization campaign data' folder; called compiled_optimization_data.csv. Each row of the csv file is an individual sample and each sample has the columns: 
+The important inputs, outputs, measurements, and timestamps for each sample have been compiled into a CSV contained within the main `optimization campaign data` folder; called `compiled_optimization_data.csv`. Each row of the CSV file is an individual sample and each sample has the columns: 
 * `sample`: unique sample identifier (in the order they were made)
-* The following columns have `_requested` and `_realized` columns corresponding to the value of the parameter requested by the experimental planning algorithm (e.g. combustion_temp_requested = 250 °C) and the value of the parameter as measured by the sensors (e.g. combustion_temp_realized = 250.465 °C). Some parameters do not have sensors or cannot be measured with a sensor, thus the realized value is equal to the requested value (and are denoted by \*).
+* The following columns have `_requested` and `_realized` columns corresponding to the value of the parameter requested by the experimental planning algorithm (e.g. `combustion_temp_requested` = 250 °C) and the value of the parameter as measured by the sensors (e.g. `combustion_temp_realized` = 250.465 °C). Some parameters do not have sensors or cannot be measured with a sensor, thus the realized value is equal to the requested value (and are denoted by \*).
   * `concentration`: the total concentration of the precursor ink (g/mL)
   * `DMSO_content`: the relative amount of DMSO in the precursor ink (v/v)
   * `combustion_temp`: the temperature of the hotplate fixture surface as measured by a thermocouple (°C)
