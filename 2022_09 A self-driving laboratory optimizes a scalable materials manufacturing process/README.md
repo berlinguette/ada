@@ -26,7 +26,7 @@ The data contained within these folders is shared with you as it is taken direct
 
 ### Compiled campaign data
 
-The important inputs, outputs, measurements, and timestamps for each sample have been compiled into a csv contained within the main 'optimization campaign data' folder; called compiled_optimization_data.csv. Each row of the csv file is an individual sample and each sample has the following columns: 
+The important inputs, outputs, measurements, and timestamps for each sample have been compiled into a csv contained within the main 'optimization campaign data' folder; called compiled_optimization_data.csv. Each row of the csv file is an individual sample and each sample has the columns: 
 * `sample`: unique sample identifier (in the order they were made)
 * The following columns have `_requested` and `_realized` columns corresponding to the value of the parameter requested by the experimental planning algorithm (e.g. combustion_temp_requested = 250 °C) and the value of the parameter as measured by the sensors (e.g. combustion_temp_realized = 250.465 °C). Some parameters do not have sensors or cannot be measured with a sensor, thus the realized value is equal to the requested value (and are denoted by \*).
   * `concentration`: the total concentration of the precursor ink (g/mL)
