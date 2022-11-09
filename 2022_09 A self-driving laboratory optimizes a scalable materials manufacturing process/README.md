@@ -44,9 +44,9 @@ The important inputs, outputs, measurements, and timestamps for each sample have
   * \**`conductance` 
   * `thickness`
   * `sheet_conductance`
-  * `sheet_resistance_avg`
-  * `conductivity_avg`
-  * `resistivity_avg`
+  * `sheet_resistance`
+  * `conductivity`
+  * `resistivity`
   * \** note that for conductance, `_avg` is labelled as `_mean` instead
 * `conductive_fraction`: the number of 4-point probe measurements (out of 5) that resulted in conductance greater than zero (expressed as a fraction)
 * `campaign_ID`: the optimization campaign ID corresponding to when the sample was created. Each individual sammple can be found in a subfolder of the same name in the folder `raw optimization campaign data`
@@ -63,6 +63,8 @@ The important inputs, outputs, measurements, and timestamps for each sample have
   * `CONDUCTIVITY`
   * `FLIR_CAMERA`
   
+The Bayesian optimizer used the manipulated variables (inputs) `concentration_realized`, `DMSO_content_realized`, `combustion_temp_realized`, `air_flow_rate_realized`, `spray_flow_rate_realized`, `spray_height_realized`, `num_passes_realized` and the responding variable (output) `conductivity_avg` to carry out the optimization.
+
 ### Scale-up experiment
 
 CSV files of the `conductance`, `thickness`, and `conductivity` are shared for the 50mm x 25mm film and the 100mm x 100mm Pd films. Each CSV file is a function of position. Details on the measurements and positions can be found in the methods of the paper. 
