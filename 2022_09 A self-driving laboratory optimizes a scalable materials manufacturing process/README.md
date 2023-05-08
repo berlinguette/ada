@@ -1,5 +1,5 @@
-# A self-driving laboratory optimizes a scalable materials manufacturing process
-Connor C. Rupnow<sup>1</sup>, Benjamin P. MacLeod<sup>2,</sup>, Mehrdad Mokhtari<sup>2</sup>, Karry Ocean<sup>2</sup>, Kevan E. Dettelbach<sup>2</sup>,     Daniel Lin<sup>2,</sup>, Fraser G. L. Parlane<sup>2,</sup>, Michael B. Rooney<sup>2</sup>, Hsi N. Chiu<sup>2</sup>, Christopher E. B. Waizenegger<sup>2</sup>,  & Curtis P. Berlinguette<sup>1,2,3,4,†</sup>
+# A self-driving laboratory optimizes a scalable process for making functional coatings
+Connor C. Rupnow<sup>1</sup>, Benjamin P. MacLeod<sup>2,</sup>, Mehrdad Mokhtari<sup>2</sup>, Karry Ocean<sup>2</sup>, Kevan E. Dettelbach<sup>2</sup>,     Daniel Lin<sup>2,</sup>, Fraser G. L. Parlane<sup>2,</sup>, Michael B. Rooney<sup>2</sup>, Hsi N. Chiu<sup>2</sup>, Christopher E. B. Waizenegger<sup>2</sup>, Elija de Hoog<sup>2</sup>, Abhishek Soni<sup>2</sup>,  & Curtis P. Berlinguette<sup>1,2,3,4,†</sup>
 
 <sup>1</sup>Department of Chemical and Biological Engineering, The University of British Columbia, 2360 East Mall, Vancouver, BC V6T 1Z3, Canada. \
 <sup>2</sup>Department of Chemistry, The University of British Columbia, 2036 Main Mall, Vancouver, BC V6T 1Z1, Canada. \
