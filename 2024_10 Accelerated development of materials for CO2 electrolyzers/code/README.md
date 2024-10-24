@@ -38,11 +38,6 @@ To generate heatmap images from the XRF data:
       - pandas
       - numpy
       - dask
-        
-To install the necessary Python packages, run the following command:
-   ```bash
-   pip install -r requirements.txt
-  ```
 
 ## Output
 The output PNG images will display heatmaps representing the distribution of elements such as Ag, Cu, Cl, and S, as extracted from the raw XRF data.
