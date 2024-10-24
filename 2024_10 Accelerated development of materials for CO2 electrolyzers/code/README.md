@@ -38,8 +38,6 @@ To generate heatmap images from the XRF data:
       - pandas
       - numpy
       - dask
-      - zlib
-      - re
         
 To install the necessary Python packages, run the following command:
    ```bash
