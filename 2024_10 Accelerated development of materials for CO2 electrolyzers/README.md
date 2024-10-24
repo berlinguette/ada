@@ -21,4 +21,3 @@ This document provides a detailed description of the contents within the three m
    - **Contents**: A total of 453 files, distributed as follows:
      - 90 BCF files: Raw files containing mapped XRF energies for each sample.
      - 360 XRF images: Four heatmap images per sample, each representing the distribution of one of the following elements: Ag, Cu, Cl, S.
-     - 3 Python scripts: Utility scripts that can be used to generate heatmap images from the XRF data (run `main_xrf.py`).
