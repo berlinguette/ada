@@ -1,6 +1,5 @@
 ## Characterization Data Collected by AdaCarbon:
 
-- [Experimental data (CSV format)](https://docs.google.com/spreadsheets/d/1YCMj1c6Q4683G1hLpnEleJwdvGPdpJ5vlDtw45Pstjg/edit?usp=sharing)
 - [XRF images](https://drive.google.com/drive/folders/1x1E4Kr82yiiMs7FOUTKwQjHXuVjtpUMk?usp=sharing)
 - [Contact angle images](https://drive.google.com/drive/folders/1vjTpPw79yppOzAvzZQXOCp_MbFSJYFH5?usp=sharing)
 - [Microscope images](https://drive.google.com/drive/folders/1fZ17vHgqHQEUTT9F8gkxvoa3tEjAW53B?usp=sharing)
