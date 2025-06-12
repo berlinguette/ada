@@ -8,14 +8,16 @@ This work features a closed-loop platform for maximizing the reactor yield of a 
 The repository includes the following folders and dataset:
 
 - **Data_analysis_code/**  
-  Contains Python scripts and/or Jupyter notebooks used to perform statistical and machine learning-based analysis of experimental and simulated data.
+   Contains scripts and notebooks used to analyze experimental results and generate all figures and visualizations included in the manuscript. This includes data processing, plotting, and formatting of output for publication-quality figures.
 
 - **Optimization_code/**  
-  Includes optimization routines, machine learning models, and supporting functions to improve reactor yields based on input parameters.
+   Includes optimization routines, machine learning models, and supporting functions to perform reactor yield optimization based on input parameters.
 
 - **Simulation_code/**  
-  Contains code for simulating the behavior of reactive carbon electrolyzers under various conditions and parameter sets.
+   Contains code for simulating optimization campaigns of reactor systems. This includes generation of performance benchmarking data for various sampling strategies such as q-noisy expected improvement (qNEI), q-expected improvement (qEI), and q-upper confidence bound (qUCB), as well as random sampling.  
+
 
 - **Dataset_Bicarbonate_Optimization.xlsx**  
-  An Excel spreadsheet that holds the dataset used in the optimization and analysis processes. It may include experimental data, simulation results, model inputs, and optimization targets.
+   Excel spreadsheet containing all experimental data (manipulated and responsing variables), and metadata for the bicarbonate reactor yield optimization project.
+
 
