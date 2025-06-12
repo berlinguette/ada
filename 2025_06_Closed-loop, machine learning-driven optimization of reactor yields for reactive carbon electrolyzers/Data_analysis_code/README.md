@@ -1,6 +1,6 @@
 # Reactor Yield Optimization - Data Visualization
 
-This script provides a comprehensive suite of visualization tools to support the analysis and interpretation of data from closed-loop optimization experiments on reactive carbon electrolyzers. It generates publication-quality plots used in the manuscript titled:
+The Python script provides a comprehensive suite of visualization tools to support the analysis and interpretation of data from closed-loop optimization experiments on reactive carbon electrolyzers. It generates publication-quality plots used in the manuscript titled:
 
 **"Closed-loop, Machine Learning-Driven Optimization of Reactor Yields for Reactive Carbon Electrolyzers."**
 
