@@ -2,7 +2,7 @@
 
 This repository contains code and data supporting the manuscript titled  
 **"Closed-loop, Machine Learning-Driven Optimization of Reactor Yields for Reactive Carbon Electrolyzers."**  
-The project focuses on optimizing reactor performance using machine learning in a closed-loop system, leveraging simulation, analysis, and optimization workflows.
+This work features a closed-loop platform for maximizing the reactor yield of a reactive carbon electrolyzer through automation and machine learning.
 
 ## Repository Structure
 
