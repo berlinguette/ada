@@ -1,6 +1,6 @@
 # Simulation Benchmarking for Optimizer Comparison
 
-This script benchmarks **Bayesian optimization** (via BoTorch) against **random sampling** for maximizing a target performance metric in a simulated environment.
+The Python script benchmarks **Bayesian optimization** (via BoTorch) against **random sampling** for maximizing a target performance metric in a simulated environment.
 
 It is used to compare optimization efficiency on a model trained to predict:
 - **CO partial current density** (J<sub>CO</sub>) from input process parameters.
