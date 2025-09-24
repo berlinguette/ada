@@ -8,3 +8,8 @@ This repository contains data associated with Project Ada's robotic chemistry an
  - Rupnow, C. C. et al. A self-driving laboratory optimizes a scalable process for making functional coatings. Cell Reports Physical Science, S2666386423001856 (2023) ([GitHub folder](https://github.com/berlinguette/ada/tree/master/2022_09%20A%20self-driving%20laboratory%20optimizes%20a%20scalable%20materials%20manufacturing%20process))
  
 Note that this repository uses [Git LFS](https://git-lfs.github.com/) for managing larger files.
+
+## License
+
+- Code: [MIT License](LICENSE-CODE)  
+- Data: [CC BY 4.0](LICENSE-DATA)  
