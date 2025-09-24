@@ -20,3 +20,10 @@ This document provides a detailed description of the contents within the three m
    - **Contents**: A total of 453 files, distributed as follows:
      - 90 BCF files: Raw files containing mapped XRF energies for each sample.
      - 360 XRF images: Four heatmap images per sample, each representing the distribution of one of the following elements: Ag, Cu, Cl, S.
+
+
+## License
+
+The dataset in this repository is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to share and adapt the data, even commercially, as long as you provide proper attribution.
