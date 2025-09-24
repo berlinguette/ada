@@ -1,3 +1,5 @@
+# Accelerated optimization of gas diffusion electrodes for CO2 electrolyzers
+
 ## Characterization Data Collected by AdaCarbon:
 
 - [XRF images](https://drive.google.com/drive/folders/1x1E4Kr82yiiMs7FOUTKwQjHXuVjtpUMk?usp=sharing)
