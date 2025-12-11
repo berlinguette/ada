@@ -13,8 +13,3 @@ The repository includes the following folders and dataset:
 - **experiment_data.csv**  
    CSV file containing all experimental data (manipulated and responsing variables), and metadata for this multi-objective optimization project.
 
-
-## License
-
-The dataset in this repository is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-
