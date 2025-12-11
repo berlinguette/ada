@@ -5,8 +5,12 @@ This folder contains the implementation of a **Bayesian optimization framework**
 ## Contents
 
 ### `multi_botorch_optimizer.py`
-Defines a `Botorch` class for running multi-objective Bayesian optimization with support for:
+Defines functions for running multi-objective Bayesian optimization with support for:
 - An acquisition function (`qNEHVI`)
-- Gaussian process modeling (`FixedNoiseGP`, `SingleTaskGP`)
+- Gaussian process modeling (`FixedNoiseGP`)
 - Normalization of input data
 - Torch-based optimization and sampling
+
+### `requirements.txt`
+Defines requirements for running multi_botorch_optimizer.py python code:
+`pip install -r requirements.txt`
