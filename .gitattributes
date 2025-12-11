@@ -21,7 +21,6 @@
 *.db filter=lfs diff=lfs merge=lfs -text
 *.ASC filter=lfs diff=lfs merge=lfs -text
 *.bcf filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
 *.dill filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
