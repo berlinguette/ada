@@ -23,5 +23,4 @@
 *.bcf filter=lfs diff=lfs merge=lfs -text
 *.dill filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
-*.txt filter=lfs diff=lfs merge=lfs -text
 *.prof filter=lfs diff=lfs merge=lfs -text
