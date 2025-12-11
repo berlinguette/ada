@@ -1,0 +1,7 @@
+torch
+botorch
+gpytorch
+numpy
+pandas
+matplotlib
+PyQt5
